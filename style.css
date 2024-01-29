@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 body, html {
     height: 100%;
     margin: 0;
@@ -30,6 +31,32 @@ body, html {
     padding: 40px 30px 70px;
     border-radius: 6px;
 }
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 600px) {
+    .todo-app {
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .row {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin-bottom: 10px; /* Added margin to separate input and button */
+    }
+
+    button {
+        padding: 12px 20px; /* Adjusted button padding for smaller screens */
+    }
+
+    ul li {
+        padding: 12px 8px;
+    }
+}
+
+
 
 .todo-app h2{
     color: #050062;
@@ -123,7 +150,7 @@ ul li span:hover{
 .footer {
     text-align: center;
     padding: 15px;
-    background-color: #333;
+    background-color: #1c1c1c;
     color: #fff;
 }
 
@@ -146,17 +173,11 @@ ul li span:hover{
     margin: 0 4px;
 }
 
-.footer a.instagram {
-    
-}
 
 .footer a.instagram:hover {
     color: #E4405F;
 }
 
-.footer a.github{
-    color: #ccc;
-}
 
 .footer a.github:hover {
     color: #4078c0;
