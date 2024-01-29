@@ -10,7 +10,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(149deg, #000000, #00043f);
+    background: linear-gradient(149deg, #1f1f1f, #2d00b2);
     padding: 10px;
 }
 
