@@ -7,18 +7,26 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
     background: linear-gradient(149deg, #1f1f1f, #2d00b2);
     padding: 10px;
+    margin: 0;
 }
 
-.todo-app{
+.todo-app {
     width: 100%;
     max-width: 540px;
     background: rgb(255, 252, 244);
-    margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 6px;
 }
@@ -110,4 +118,69 @@ ul li span{
 
 ul li span:hover{
     background: #edeef0;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-title {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.copyright-text {
+    font-size: 10px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    margin: 0 4px;
+}
+
+.footer a.instagram {
+    
+}
+
+.footer a.instagram:hover {
+    color: #E4405F;
+}
+
+.footer a.github{
+    color: #ccc;
+}
+
+.footer a.github:hover {
+    color: #4078c0;
+}
+
+.repository-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', monospace;
+    border-radius: 4px;
+    height: 24px;
+}
+
+.repository-button i {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.repository-button:hover {
+    background-color: #368239;
 }

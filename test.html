@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Created by Susmit</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .footer-title {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .copyright-text {
+            font-size: 10px;
+            margin-top: 4px;
+            color: #ccc;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s ease;
+            margin: 0 4px;
+        }
+
+        .footer a.github:hover {
+            color: #4078c0;
+        }
+
+        .repository-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-family: 'Courier New', monospace;
+            border-radius: 4px;
+            height: 24px;
+        }
+
+        .repository-button i {
+            margin-right: 6px;
+            margin-left: 6px;
+        }
+
+        .repository-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="footer">
+        <p class="footer-title">Created by Susmit 🎨</p>
+        <p>
+            <a class="instagram" href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="github" href="https://github.com/your-github-profile" target="_blank"><i class="fab fa-github"></i></a>
+            <button class="repository-button" onclick="window.location.href='https://github.com/your-github-repository'"><i class="fas fa-code"></i> Open Repo</button>
+        </p>
+        <p class="copyright-text">&#169; Susmit Kalyan Behera 2024</p>
+    </div>
+
+</body>
+</html>
